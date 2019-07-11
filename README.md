@@ -8,5 +8,6 @@
 
     1. switch in RCM mode
     2. plug switch to pc
-    3. run command (A success message should now be displayed on your Switch.)
-      sudo python3 ./fusee-launcher.py ./fusee-test.bin
+    3. run command
+       $ sudo python3 ./fusee-launcher.py ./fusee-test.bin
+       (A success message should now be displayed on your Switch.)
