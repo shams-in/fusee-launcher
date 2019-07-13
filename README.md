@@ -13,6 +13,20 @@
        $ sudo python3 ./fusee-launcher.py ./fusee-test.bin
        (A success message should now be displayed on your Switch.)
 
+```
+sudo python3 ./usb_install_pc.py /Users/shams/Documents/games/goat-simulator
+
+sudo python3 ./fusee-launcher.py /Users/shams/Downloads/SDSetup\(7_12_19\)/payloads/hekate_ctcaer_5.0.1.pre6.bin
+
+
+
+1. RCM Mode (recovery mode on switch)
+2. fusee-gelee (pc software to run .bin file on switch)
+3. Hekate (like bootloader for switch, run via fusee-gelee)
+3. Atmosphere CFW (hacked operating system, booted via Hekate)
+    - can be used Homebrew on this operating system
+```
+
 It contains _no payloads_. You must download and place the payloads in the "Payloads" directory.
 
 Note: Payload-specific launchers have been removed for now. If demand is there, I will bring them back. I just do not see a point to them with one unified GUI.
